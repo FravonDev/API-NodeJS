@@ -28,6 +28,7 @@ routes.get('/itens/:id', (req,res) => {
 //atualiza o item
 routes.put('/update/:id', (req, res) => {
     const id = req.params.id
+    db[id-1] = req.body
     res.json(db[id-1])
 })
 routes.delete('/itens/:id', (req, res) => {
