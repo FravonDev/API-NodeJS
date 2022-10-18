@@ -20,7 +20,7 @@ routes.post('/add', (req,res) => {
     res.json(body)
 })
 
-routes.get('/itens/:id', (req,res) => {
+routes.get('/item/:id', (req,res) => {
     const id = req.params.id
     res.json(db[id-1])
 })
@@ -31,7 +31,12 @@ routes.put('/update/:id', (req, res) => {
     db[id-1] = req.body
     res.json(db[id-1])
 })
-routes.delete('/itens/:id', (req, res) => {
+routes.delete('/delete/:id', (req, res) => {
     const id = req.params.id
-    res.json(`Apaga o item ${id}`)
+
+    const index = db.indexOf(db[id-1]);
+    if (index > -1) {
+      db.splice(index, 1)
+    }
+    res.json(db)
 })
