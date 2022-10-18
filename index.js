@@ -1,7 +1,7 @@
 const express =  require('express')
 const server =  express()
 const db = require('./src/models/db.json') 
-const port = 3000 || process.env.PORT;
+const port = process.env.PORT || 3000;
 var bodyParser = require('body-parser');
 
 server.use(bodyParser.urlencoded({
