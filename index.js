@@ -2,10 +2,8 @@ const express =  require('express')
 const server =  express()
 const db = require('./src/models/db.json') 
 
-
-server.get('/', (req, res)=>{
-    return res.json(db)
-})
+const routes = require('./src/routes/routes.js')
+server.use(routes)
 
 
 server.listen(3000, () =>
