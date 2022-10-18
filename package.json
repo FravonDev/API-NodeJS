@@ -3,8 +3,12 @@
   "version": "1.0.0",
   "description": "Api com NodejS e EXpress",
   "main": "index.js",
+  "engines": {
+    "node": "16.x"
+  },
   "scripts": {
-    "start": "node index",
+    "dev": "nodemon index.js",
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
