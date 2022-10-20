@@ -13,6 +13,7 @@ Api para disponibilizar dados de  filmes feita com NodeJS e Express!
 <br />
 
 <hr>
+<br />
 
 # :rocket: Acesso ao projeto
 
