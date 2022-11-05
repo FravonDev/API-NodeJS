@@ -47,7 +47,7 @@ Você pode Acessar a API [clicando aqui](https://fravondevapi.herokuapp.com), ac
 # 📧 Contate-me
 
 - E-mail: [flavioticontato@gmail.com](mailto:flavioticontato@gmail.com)
-- LinkedIn: [Flavio Adriano](https://linkedin.com/in/arpitbhalla/)
+- LinkedIn: [Flavio Adriano](https://linkedin.com/in/flavioadriano/)
 - GitHub: [flavinpv](https://github.com/flavinpv/)
 
 
